@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:listitem="@layout/track_item_layout">
+    tools:listitem="@layout/track_item_layout"
+    android:background="#CCF40606">
 
 </androidx.recyclerview.widget.RecyclerView>

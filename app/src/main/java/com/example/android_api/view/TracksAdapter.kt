@@ -25,8 +25,8 @@ class TracksAdapter(private val dataSet: TrackList,
 
                       fun onBind(dataItem: TrackResponse,
                       openDetails: (TrackResponse) -> Unit) {
-                          trackTitle.text = dataItem.collectionName
-                          Picasso.get().load(dataItem.image).into(trackimage)
+                          trackTitle.text = dataItem.results.collectionName
+                          Picasso.get().load(dataItem.results.image).into(trackimage)
                           view.setOnClickListener{openDetails(dataItem) }
                          }
                           }
